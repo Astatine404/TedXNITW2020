@@ -2551,7 +2551,8 @@ ul.legals li:last-child::after {
     left: 20%;
 	animation-name: left;
 	animation-duration: 4s;
-	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	animation-fill-mode: forwards; 
 }
 
 .right {
@@ -2559,7 +2560,8 @@ ul.legals li:last-child::after {
     left: calc(46.5%);
   	animation-name: right;
   	animation-duration: 4s;
-  	animation-iteration-count: infinite;
+  	animation-delay: 1s;
+  	animation-fill-mode: forwards; 
 }
 
 .small-left {
@@ -2567,7 +2569,8 @@ ul.legals li:last-child::after {
     left: 21%;
 	animation-name: left-small;
 	animation-duration: 4s;
-	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	animation-fill-mode: forwards; 
 }
 
 .small-right {
@@ -2575,7 +2578,8 @@ ul.legals li:last-child::after {
     left: calc(48%);
   	animation-name: right-small;
   	animation-duration: 4s;
-  	animation-iteration-count: infinite;
+  	animation-delay: 1s;
+  	animation-fill-mode: forwards; 
 }
 
 .small-left img {
@@ -2601,7 +2605,8 @@ ul.legals li:last-child::after {
     left: 21%;
 	animation-name: left-smaller;
 	animation-duration: 4s;
-	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	animation-fill-mode: forwards; 
 }
 
 .smaller-right {
@@ -2609,7 +2614,8 @@ ul.legals li:last-child::after {
     left: calc(48%);
   	animation-name: right-smaller;
   	animation-duration: 4s;
-  	animation-iteration-count: infinite;
+  	animation-delay: 1s;
+  	animation-fill-mode: forwards; 
 }
 
 .smaller-left img {
