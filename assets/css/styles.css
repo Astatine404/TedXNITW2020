@@ -808,7 +808,7 @@ h1.arrow {
     font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 0.3em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .features-wrapper {
