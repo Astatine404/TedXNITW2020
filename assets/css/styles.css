@@ -671,6 +671,7 @@ body {
     padding: 15px;
     text-transform: uppercase;
     width: 200px;
+    margin-top: -15px;
 }
 
 .align-center {
@@ -2716,4 +2717,8 @@ ul.legals li:last-child::after {
 	height: 150px; 
 	width: auto; 
 	margin-top: -90px;
+}
+
+.logo-box {
+	margin-top: -20px;
 }
