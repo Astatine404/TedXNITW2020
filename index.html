@@ -673,13 +673,29 @@
         <section class="subscribe text-center">
 			<div class="subscribe-overlay"></div>
 			<div class="container wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-				<h1>Subscribe for newsletter</h1>
-				<form action="notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
+				<h1>Time to event:</h1>
+				<!-- <form action="notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
 					<div class="input-group col-lg-12 align-center">
 					  <input type="text" class="form-control email-add" name="email" placeholder="Enter Email Address">
 					  <button class="btn btn-default notify-button"><i class="fa fa-paper-plane"></i><span>Send</span></button>
 					</div>
-				</form>
+				</form> -->
+				<div id="clockdiv" class="col-lg-12 align-center">
+					<div class="row no-gutters">
+					<div class="col-lg-3 timebox">
+				    <h2><span class="days"></span> d</h2>
+				  	</div>
+				  	<div class="col-lg-3 timebox">
+				    <h2><span class="hours"></span> h</h2>
+				  	</div>
+				  	<div class="col-lg-3 timebox">
+				    <h2><span class="minutes"></span> m</h2>
+				  	</div>
+				  	<div class="col-lg-3 timebox">
+				    <h2><span class="seconds"></span> s</h2>
+				  	</div>
+				  	</div>
+				</div>
 			</div>
         </section>
 		<!-- /SUBSCRIBE -->
@@ -736,7 +752,7 @@
 					<div class="col-md-6 align-center">
 						<ul class="legals">
 							<li><button class="md-trigger " data-modal="modal-x">Disclaimer</button></li>
-							<li><a href="http://multia.in/">Made with  <i class="fa fa-heart"></i>  by TEDxNITW Web Dev Team!</a></li>
+							<li>Made with  <i class="fa fa-heart"></i>  by TEDxNITW Web Dev Team!</li>
 						</ul>
 					</div>
 					<div class="md-modal md-effect-9" id="modal-11">
