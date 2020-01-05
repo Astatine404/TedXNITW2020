@@ -16,6 +16,9 @@
 		<meta name="keywords"  content="Event, Coming Soon, TEDx, NIT, Warangal" />
 		<meta name="author" content="SaurabhB" />
 
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'> 
 
@@ -37,6 +40,31 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<style>
+			.item {
+            background-color:#e6e6e6;
+            text-align: right;
+			height: 600px;
+			width: auto;
+
+			
+        }
+		.carousel-inner
+		{
+			margin-left :-175px;
+			margin-bottom: -19px;
+		}
+		
+		#DemoCarousel
+		{
+			background-color: ;
+			margin-left : 350px;
+		}
+		#single
+		{
+			margin-bottom: 200px;
+		}
+		</style>
 	
 	</head>
 	   
@@ -166,26 +194,65 @@
 
 			
 		<!--ABOUT-->	
-		<section class="intro text-center section-padding" id="intro">
+		<!-- <section class="intro text-center section-padding" id="intro">
 			<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
 				<div class="row">
 					<div class="col-lg-8 align-center about">
-								
 						<h1 class="arrow">ABOUT TED</h1>
 						<hr>
 						<p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world’s leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
 
 						The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.</p><br><br>
-						<h1 class="arrow">ABOUT TEDx</h1>
+
+												<h1 class="arrow">ABOUT TEDx</h1>
 						<hr>
 						<p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx (where x = independently organized TED event) The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized (Subject to certain rules and regulations).</p> 
 							
 				    </div>
 				</div>
 			</div>
-        </section>
+        </section> -->
 		<!--/ABOUT-->
-        
+
+		<div class="thumbnail">
+			<div id="DemoCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+	
+				<!-- <ol class="carousel-indicators">
+					<li data-target="#DemoCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#DemoCarousel" data-slide-to="1"></li>
+					 <li data-target="#DemoCarousel" data-slide-to="2"></li> 
+				</ol> -->
+				<div class="carousel-inner" style="background-color:#e6e6e6;">
+					<div class="item active" style="background-color:#e6e6e6;">
+						<div class="carousel-caption">
+							<h1 class="arrow">ABOUT TED</h1>
+						<hr>
+						<p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world’s leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+
+						The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.</p><br><br>
+
+					</div>
+					</div>
+					<div class="item">
+						
+						<div id="single" class="carousel-caption" style="background-color:#e6e6e6;">
+							<h1 class="arrow">ABOUT TEDx</h1>
+						<hr>
+						<p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx (where x = independently organized TED event) The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized (Subject to certain rules and regulations).</p> 
+							
+						</div>
+					</div>
+					
+				</div>
+				<a class="slides-navigation left" href="#DemoCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="slides-navigation right" href="#DemoCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+
        
         <!--FEATURES-->	
         <section class="features text-center" id="features">
@@ -435,7 +502,7 @@
 									<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
 										<div class="overlay-effect effects clearfix">
 											<div class="img">
-												<img src="assets/img/team/chitra12.jpg" alt="Portfolio Item">
+												<img src="assets/img/team/chitra51.jpg" alt="Portfolio Item">
 												<div class="overlay">
 													<button class="md-trigger expand" data-modal="modal-5"><i class="fa fa-search"></i><br>View More</button>
 												</div>
@@ -447,14 +514,14 @@
 									<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
 										<div class="overlay-effect effects clearfix">
 											<div class="img">
-												<img src="assets/img/team/images1.jpg" alt="Portfolio Item">
+												<img src="assets/img/team/seema13.jpg" alt="Portfolio Item">
 												<div class="overlay">
-													<button class="md-trigger expand" data-modal="modal-10"><i class="fa fa-search"></i><br>View More</button>
+													<button class="md-trigger expand" data-modal="modal-6"><i class="fa fa-search"></i><br>View More</button>
 												</div>
 											</div>
 										</div>
-										<!-- <h2>Saptarshi Prakash</h2>
-										<p>Digital Experience Designer</p> -->
+										<h2>Seema Tomar</h2>
+										<p>Trap Shooter</p>
 									</div>
 								</li>
 								
@@ -543,19 +610,8 @@
 						<div class="avatar5"></div>
 						<div class="sp-name"><strong>Chitra Vishwanath</strong><br/>Architect</div>
 						<div class="sp-dsc">
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
-							<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
-							</blockquote>
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-						</div>
-						<div class="sp-social">
-							<ul>
-								<li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
+							Chitra Vishwanath, an architect based in Bangalore is the principal architect at Biome Environmental Solutions. She studied for a diploma in civil engineering from Nigeria and a Bachelor of Architecture degree from the CEPT University in Ahmedabad. She has been running her own architectural firm since 1991, working with other architects on many projects in India and Africa.
+                            Biome is making major strides in ecological architecture especially in urban settings. In a world where conventional architecture and construction practices do much harm to the environment, firms like Biome strive to bring in a holistic ecosystem-based approach. Biome has been involved in more than 700 projects of various scales and contexts encompassing ecological construction, water harvesting and sanitation structures with specific relevance to the ecology of the sites</div>
 						<button class="md-close"><i class="fa fa-times"></i></button>
 					</div>
 				</div>
@@ -567,21 +623,13 @@
 				<div class="md-content">
 					<div class="folio">
 						<div class="avatar6"></div>
-						<div class="sp-name"><strong>Mark Anderson</strong><br/>Director, ABC</div>
+						<div class="sp-name"><strong>Seema Tomar</strong><br/>Trap Shooter</div>
 						<div class="sp-dsc">
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
-							<blockquote>
-							<p>Here is a long quotation here is a long quotation proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
-							</blockquote>
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+							If breaking stereotypes were a target, Seema Tomar seems to be hitting the bullseye. Hailing from Johri, a village in Uttar Pradesh, Seema was expected to marry and become a housewife. However, as fate would have it, her aptitude for shooting, passed down to her by her mother, Prakashi Tomar, famously known as 'Revolver Dadi', an award-winning shooter herself, began to bloom. She started accompanying her mother and aunt to the shooting range and there was no looking back.
+
+							Seema initially shot with an air rifle, consequently switching to a shotgun and currently specializes in trap shooting. Aged 37, she is the only Indian woman to win the Silver Medal for the shotgun event, at the 'International Shooting Sports Federation'. She has gone forth to secure 6 gold medals and 2 silver medals in various editions of the National Shooting Championship's Trap events. She has also acquired 2 bronze medals in the Asian Clay Shooting Championship's as well as participated in the Commonwealth Games. Alongside her mother, she still continues to run a shooting range in her village where many girls come to learn.
 						</div>
-						<div class="sp-social">
-							<ul>
-								<li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-						</div>
+						
 						<button class="md-close"><i class="fa fa-times"></i></button>
 					</div>
 				</div>
@@ -770,6 +818,8 @@
 		
 		<!-- INITIALIZATION  -->
 		<script type="text/javascript" src="assets/js/init.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     </body>
 </html>
