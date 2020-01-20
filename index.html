@@ -34,6 +34,11 @@
 		<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/queries.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/jquery.countdown.css" rel="stylesheet" type="text/css" >
+		
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<!-- <link rel="stylesheet" href="assets/css/teamslider.css" type="text/css"> -->
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	  
 		<!--[if lt IE 9]>
@@ -195,64 +200,52 @@
 
 			
 		<!--ABOUT-->	
-		<!-- <section class="intro text-center section-padding" id="intro">
-			<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
-				<div class="row">
-					<div class="col-lg-8 align-center about">
-						<h1 class="arrow">ABOUT TED</h1>
-						<hr>
-						<p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world’s leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
-
-						The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.</p><br><br>
-
-												<h1 class="arrow">ABOUT TEDx</h1>
-						<hr>
-						<p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx (where x = independently organized TED event) The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized (Subject to certain rules and regulations).</p> 
-							
-				    </div>
-				</div>
-			</div>
-        </section> -->
+		
+		<section class="intro text-center section-padding" id="intro">
+			<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="10000" id="bs-carousel">
+				<!-- Overlay -->
+				<div class="overlay"></div>
+			  
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#bs-carousel" data-slide-to="1"></li>
+				</ol>
+				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				  <div class="item slides active">
+					<div class="slide-1"></div>
+					<div class="hero">
+					  <hgroup></hgroup>
+						  <h1 class="arrow">ABOUT TED</h1 class="arrow">        
+						  <hr>
+									  <p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world’s leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+			  
+									  The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.</p><br><br>
+			  
+					  </hgroup>
+					 
+					</div>
+				  </div>
+				  <div class="item slides">
+					<div class="slide-2"></div>
+					<div class="hero">        
+					  <hgroup>
+						  <h1 class="arrow">ABOUT TEDx</h1 class="arrow">        
+						  <hr>
+									  <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx (where x = independently organized TED event) The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized (Subject to certain rules and regulations).</p> 
+										  
+					  </hgroup>       
+					  
+					</div>
+				  </div>
+				</div> 
+			  </div>
+		</section>
+		
 		<!--/ABOUT-->
 
-		<div class="thumbnail" id="intro">
-			<div id="DemoCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
-	
-				<!-- <ol class="carousel-indicators">
-					<li data-target="#DemoCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#DemoCarousel" data-slide-to="1"></li>
-					 <li data-target="#DemoCarousel" data-slide-to="2"></li> 
-				</ol> -->
-				<div class="carousel-inner" style="background-color:#e6e6e6;">
-					<div class="item active" style="background-color:#e6e6e6;">
-						<div class="carousel-caption">
-							<h1 class="arrow">ABOUT TED</h1>
-						<hr>
-						<p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world’s leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
-
-						The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.</p><br><br>
-
-					</div>
-					</div>
-					<div class="item">
-						
-						<div id="single" class="carousel-caption" style="background-color:#e6e6e6;">
-							<h1 class="arrow">ABOUT TEDx</h1>
-						<hr>
-						<p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx (where x = independently organized TED event) The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized (Subject to certain rules and regulations).</p> 
-							
-						</div>
-					</div>
-					
-				</div>
-				<a class="slides-navigation left" href="#DemoCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class="slides-navigation right" href="#DemoCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-			</div>
-		</div>
 
        
         <!--FEATURES-->	
@@ -588,7 +581,7 @@
 						<div class="sp-name"><strong>Sudip Ghose</strong><br/>MD,VIP Industries Limited</div>
 						<div class="sp-dsc">
 						
-							Touted as a dynamo by colleagues and employees alike, Sudip Ghose is a man of relentless energy and always has a positive approach towards his work. With over two decades worth of experience, fourteen of which have been spent in positions of leadership, he is known for his "never say die" attitude.<br> He is currently the Managing Director of VIP Industries Limited and has worked with Samsonite South Asia, Onida, Whirlpool India, Reliance and Bausch & Lomb.</div>
+							Touted as a  dynamo by colleagues and employees alike, Sudip Ghose is a man of relentless energy and always has a positive approach towards his work. With over two decades worth of experience, fourteen of which have been spent in positions of leadership, he is known for his "never say die" attitude.<br> He is currently the Managing Director of VIP Industries Limited and has worked with Samsonite South Asia, Onida, Whirlpool India, Reliance and Bausch & Lomb.</div>
 						
 						<button class="md-close"><i class="fa fa-times"></i></button>
 					</div>
@@ -735,194 +728,559 @@
 			</div>
         </section>
 		<!-- /SUBSCRIBE -->
-				 <!--TEAM-->
-        <!-- <section class="intro text-center section-padding" id="group">
-			<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
+				 <!-- TEAM-->
+        <section class="intro text-center section-padding" id="group">
+			<div class="container wow animated animated" data-wow-duration="1s" data-wow-delay="0.5s">
 				<div class="row">
 					<div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
 						<h1 class="arrow">Team</h1><hr>
 					</div>
 				</div>
 				<div class="row">
-					<div class="speakers-wrap">
-						<div class="col-md-6 col-sm-6 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-							<h2>Nikhil Mathur</h2>
-							<p>Organizer</p>
-						</div>
-						<div class="col-md-6 col-sm-6 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-							<h2>Anushka Mehta</h2>
-							<p>Co-Organizer</p>
-						</div>
+					<div class="col-md-6 col-sm-6 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+						
+						<h2 class="levels">Organizer</h2>
+						<h2>Nikhil Mathur</h2>
 					</div>
-				</div>
+					<div class="col-md-6 col-sm-6 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+						
+						<h2 class="levels">Co-Organizer</h2>
+						<h2>Anushka Mehta</h2>
+					</div>
+			</div>
 				<div class="row">
-					<div class="speakers-wrap">
-						<div id="portfolioSlider">
-							<ul class="slides">
+					<div>
+						<div>
+							<ul>
 								<li>
-									<div class="col-md-3 col-sm-3 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+									<div class="col-md-3 col-sm-3 wow animated" data-wow-duration="1s" data-wow-delay="0.5s">
 										<div class="overlay-effect effects clearfix">
 											<div id="grid-gallery" class="grid-gallery">
 												<section class="grid-wrap">
 													<div class="groupgrid-gal">
 														<figure class="team-hover 3d-gallery">
-															<a href="#"><img src="assets/img/gallery/ep1.png">
+															<div data-toggle="modal" data-target="#myModa1"><a href="#myGallery1" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
 																<span>Logistics</span>
-															</a>                            
+															</a></div>                            
 													    </figure>		
 													</div>
 												</section>
-											<script type="text/javascript">
-												$( document ).ready(function() {
-													alert("yes");
-															$('#slideer').on('click', function() {
-																$('.sliderPop').show();
-																$('.ct-sliderPop-container').addClass('open');
-																$('.sliderPop').addClass('flexslider');
-																$('.sliderPop .ct-sliderPop-container').addClass('slides');
-
-																$('.sliderPop').flexslider({
-																selector: '.ct-sliderPop-container > .ct-sliderPop',
-																slideshow: false,
-																controlNav: false,
-																controlsContainer: '.ct-sliderPop-container'
-																});
-															});
-
-															$('.ct-sliderPop-close').on('click', function() {
-																$('.sliderPop').hide();
-																$('.ct-sliderPop-container').removeClass('open');
-																$('.sliderPop').removeClass('flexslider');
-																$('.sliderPop .ct-sliderPop-container').removeClass('slides');
-															});
-															});
-											</script>
-												 -->
-											<!-- slideshow -->
-											<!-- <div class="sliderPop">
-												<div class="ct-sliderPop-container">
-													<ul>
-														<li>
-																<figure>
-																	<img src="assets/img/gallery/TEDX-332.jpg" alt="img03"/>
-																	
-																</figure>
-															</li>
-															<li>
-																<figure>											
-																	<img src="assets/img/gallery/TEDX-83.jpg" alt="img02"/>
-																</figure>
-															</li>
-															<li>
-																<figure>
-																	<img src="assets/img/gallery/TEDX-120.jpg" alt="img03"/>
-																</figure>
-															</li>
-															<li>
-																<figure>
-																	<img src="assets/img/gallery/TEDX-190.jpg" alt="img03"/>
-																</figure>
-															</li>
-															
-														</ul>
-													<nav>
-														<span class="nav-prev fa-chevron-left fa fa-2x "></span>
-														<span class="nav-next fa-chevron-right fa fa-2x"></span>
-														<span class="close nav-close"><i class="fa fa-times"></i></span>
-													</nav>
-												</div>
-												
-											</div> -->
-											<!-- /slideshow -->
-										<!-- </div> -->
+										    </div>
 										<!-- /grid-gallery -->
-<!-- 
-									    </div>
+										</div>
+										<h2>Logistics</h2>
 									</div>
-									
-									<div class="col-md-3 col-sm-3 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+										<!--begin modal window-->
+				  <div class="modal fade" id="myModa1">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<div class="pull-left slideheader">Event Production & Logistics</div>
+					<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+					</div>
+					<div class="modal-body">
+					
+					<!--CAROUSEL CODE GOES HERE-->
+					
+					<!--CAROUSEL CODE GOES HERE-->
+				
+					
+					<div class="carousel slide carouselslide">
+						<!-- mygallery1 -->
+						<div id="myGallery1">
+							<div class="carousel-inner" style="margin-left: -50px;">
+								<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn9.jpg" alt="item0">
+								<div class="carousel-caption">
+								<h3 class="fontstyle">Samiran Ghosh</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Ashwin Kumar</h3>
+									</div>
+									</div>
+									<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpeg" alt="item0">
+										<div class="carousel-caption">
+										<h3 class="fontstyle">G Akhil Reddy</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn9.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Bhagya Trivedi</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Ankith Suresh</h3>
+								</div>
+								</div>
+								
+								<!--end carousel-inner--></div>
+						</div>
+						
+						<!--Begin Previous and Next buttons-->
+						<nav class="slides-navigation" style="margin-left: -25px;
+						">
+							<a href="#myGallery1" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+							<a href="#myGallery1" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+						  </nav>
+						<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+						<!--end carousel--></div>
+					
+					<!--end modal-body--></div>
+					<!--end modal-content--></div>
+					<!--end modal-dialoge--></div>
+					<!--end myModal--></div>
+				
+									<div class="col-md-3 col-sm-3 wow animated" data-wow-duration="1s" data-wow-delay="0.5s">
 										<div class="overlay-effect effects clearfix">
 											<div id="grid-gallery" class="grid-gallery">
 													<figure class="team-hover 3d-gallery">
-														<a href="#"><img src="assets/img/gallery/ep2.png">
+														<div data-toggle="modal" data-target="#myModal2"><a href="#myGallery2" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
 															<span>Decoration</span>
-														</a>                            
+														</a></div>                           
 													</figure>
 												
 											</div>
 										</div>
+										<h2>Decoration</h2>
 									</div>
-									
+										<!--begin modal window-->
+				  <div class="modal fade" id="myModal2">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<div class="pull-left slideheader">Decoration</div>
+					<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+					</div>
+					<div class="modal-body">
+					
+					<!--CAROUSEL CODE GOES HERE-->
+
+						
+					<div class="carousel slide carouselslide">
+						<!-- mygallery2 -->
+						<div id="myGallery2">
+							<div class="carousel-inner" style="margin-left: -50px;">
+								<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+								<div class="carousel-caption">
+								<h3 class="fontstyle">Tayyaba Shaikh</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpeg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Nikita Sam</h3>
+									</div>
+									</div>
+									<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn9.jpg" alt="item0">
+										<div class="carousel-caption">
+										<h3 class="fontstyle">Niyati Deshmukh</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Rishit Sahu</h3>
+								</div>
+								</div>
+								<!--end carousel-inner--></div>
+						</div>
+						
+						<!--Begin Previous and Next buttons-->
+						<nav class="slides-navigation" style="margin-left: -25px;
+						">
+							<a href="#myGallery2" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+							<a href="#myGallery2" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+						  </nav>
+						<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+						<!--end carousel--></div>
+					<!--end modal-body--></div>
+					<!--end modal-content--></div>
+					<!--end modal-dialoge--></div>
+					<!--end myModal--></div>
+					<div class="col-md-3 col-sm-3 wow animated" data-wow-duration="1s" data-wow-delay="0.5s">
+						<div class="overlay-effect effects clearfix">
+							<div id="grid-gallery" class="grid-gallery">
+								<section class="grid-wrap">
+									<div class="groupgrid-gal">
+										<figure class="team-hover 3d-gallery">
+											<div data-toggle="modal" data-target="#myModa3"><a href="#myGallery3" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
+												<span>Curation</span>
+											</a></div>                            
+										</figure>		
+									</div>
+								</section>
+							</div>
+						<!-- /grid-gallery -->
+						</div>
+						<h2>Curation</h2>
+					</div>
+										
+					<!--begin modal window-->
+					<div class="modal fade" id="myModa3">
+						<div class="modal-dialog">
+						<div class="modal-content">
+						<div class="modal-header">
+						<div class="pull-left slideheader">Curation</div>
+						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+						</div>
+						<div class="modal-body">					
+					<!--CAROUSEL CODE GOES HERE-->
+					
+					<!--CAROUSEL CODE GOES HERE-->
+				
+					
+					<div class="carousel slide carouselslide">
+						<!-- mygallery3 -->
+						<div id="myGallery3">
+							<div class="carousel-inner" style="margin-left: -50px;">
+								<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn9.jpg" alt="item0">
+								<div class="carousel-caption">
+								<h3 class="fontstyle">Jessica D'Souza</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Adhav Mathialagan</h3>
+									</div>
+									</div>
+									<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpeg" alt="item0">
+										<div class="carousel-caption">
+										<h3 class="fontstyle">Ashwin Ganesan</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Sruthy Saju</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Nitin Bhatia</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Shahana Nandy</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Jovita Varghese</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Jessica George</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Rohit Chandrahas</h3>
+								</div>
+								</div>
+								<!--end carousel-inner--></div>
+						</div>
+						
+						<!--Begin Previous and Next buttons-->
+						<nav class="slides-navigation" style="margin-left: -25px;
+						">
+							<a href="#myGallery3" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+							<a href="#myGallery3" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+						  </nav>
+						<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+						<!--end carousel--></div>					
+					<!--end modal-body--></div>
+					<!--end modal-content--></div>
+					<!--end modal-dialoge--></div>
+					<!--end myModal--></div>
+
+                    	
 									<div class="col-md-3 col-sm-3 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 										<div class="overlay-effect effects clearfix">
 											<div id="grid-gallery" class="grid-gallery">
 												<figure class="team-hover 3d-gallery">
-														<a href="#"><img src="assets/img/gallery/cure1.png">
-															<span>Curation</span>
-														</a>                            
+													<div data-toggle="modal" data-target="#myModa4"><a href="#myGallery4" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
+														<span>Publicity & PR</span>
+													</a></div>                          
 													</figure>
 											</div>
 										</div>
+										<h2>Publicity & PR</h2>
 									</div>
-									<div class="col-md-3 col-sm-3 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-										<div class="overlay-effect effects clearfix">
-											<div id="grid-gallery" class="grid-gallery">
-												<figure class="team-hover 3d-gallery">
-														<a href="#"><img src="assets/img/gallery/gal-icn.png">
-															<span>Publicity & PR</span>
-														</a>                            
-													</figure>
-											</div>
-										</div>
+																					<!--begin modal window-->
+				  <div class="modal fade" id="myModa4">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<div class="pull-left slideheader">Publicity & PR</div>
+					<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+					</div>
+					<div class="modal-body">
+					
+					<!--CAROUSEL CODE GOES HERE-->
+					
+					<!--CAROUSEL CODE GOES HERE-->
+				
+					<div class="carousel slide carouselslide">
+						<!-- mygallery1 -->
+						<div id="myGallery4">
+							<div class="carousel-inner" style="margin-left: -50px;">
+								<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+								<div class="carousel-caption">
+								<h3 class="fontstyle">Vaishnavi Bhamidipati</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Sahil Poonatar</h3>
 									</div>
+									</div>
+									<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+										<div class="carousel-caption">
+										<h3 class="fontstyle">Sai Anuhya</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Anshika Shrivastav</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Shubham Das</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Ashika Verma</h3>
+								</div>
+								</div>
+								
+								<!--end carousel-inner--></div>
+						</div>
+						
+						<!--Begin Previous and Next buttons-->
+						<nav class="slides-navigation" style="margin-left: -25px;
+						">
+							<a href="#myGallery4" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+							<a href="#myGallery4" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+						  </nav>
+						<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+						<!--end carousel--></div>
+					
+					<!--end modal-body--></div>
+					<!--end modal-content--></div>
+					<!--end modal-dialoge--></div>
+					<!--end myModal--></div>
 								</li>
-								<li>
+								<ul>
 									
 									<div class="col-md-3 col-md-offset-1 col-sm-3 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 										<div class="overlay-effect effects clearfix">
 											<div id="grid-gallery" class="grid-gallery">
 												<figure class="team-hover 3d-gallery">
-														<a href="#"><img src="assets/img/gallery/gal-icn.png">
-															<span>Design</span>
-														</a>                            
+													<div data-toggle="modal" data-target="#myModa5"><a href="#myGallery5" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
+														<span>Sponsorship</span>
+													</a></div>                             
 													</figure>
 											</div>
 										</div>
+										<h2>Sponsorship</h2>
 									</div>
+																					<!--begin modal window-->
+				  <div class="modal fade" id="myModa5">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<div class="pull-left slideheader">Sponsorship</div>
+					<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+					</div>
+					<div class="modal-body">
+					
+					<!--CAROUSEL CODE GOES HERE-->
+					
+					<!--CAROUSEL CODE GOES HERE-->
+				
+					<div class="carousel slide carouselslide">
+						<!-- mygallery1 -->
+						<div id="myGallery5">
+							<div class="carousel-inner" style="margin-left: -50px;">
+								<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+								<div class="carousel-caption">
+								<h3 class="fontstyle">Nikhil Porwal</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Justin Varghese</h3>
+									</div>
+									</div>
+									<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+										<div class="carousel-caption">
+										<h3 class="fontstyle">Vishal Vinod</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Aditya Nittala</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Sourab Saju</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Gauri M</h3>
+								</div>
+								</div>
+								
+								<!--end carousel-inner--></div>
+						</div>
+						
+						<!--Begin Previous and Next buttons-->
+						<nav class="slides-navigation" style="margin-left: -25px;
+						">
+							<a href="#myGallery5" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+							<a href="#myGallery5" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+						  </nav>
+						<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+						<!--end carousel--></div>
+					<!--end modal-body--></div>
+					<!--end modal-content--></div>
+					<!--end modal-dialoge--></div>
+					<!--end myModal--></div>
+
+								<div class="col-md-3 col-sm-3 wow animated fadeInUp shift" data-wow-duration="1s" data-wow-delay="0.5s">
+									<div class="overlay-effect effects clearfix">
+										<div id="grid-gallery" class="grid-gallery">
+											<figure class="team-hover 3d-gallery">
+												<div data-toggle="modal" data-target="#myModa7"><a href="#myGallery7" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
+													<span>Design</span>
+												  </a></div>                             
+												</figure>
+										</div>
+									</div>
+									<h2>Design</h2>
+								</div>
+								<div class="modal fade" id="myModa7">
+									<div class="modal-dialog">
+									<div class="modal-content">
+									<div class="modal-header">
+									<div class="pull-left slideheader">Design</div>
+									<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+									</div>
+									<div class="modal-body">
+									
+									<!--CAROUSEL CODE GOES HERE-->
+									
+									<!--CAROUSEL CODE GOES HERE-->
+								
+									<div class="carousel slide carouselslide">
+										<!-- mygallery1 -->
+										<div id="myGallery7">
+											<div class="carousel-inner" style="margin-left: -50px;">
+												<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+												<div class="carousel-caption">
+												<h3 class="fontstyle">K Swetha</h3>
+												</div>
+												</div>
+												<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+													<div class="carousel-caption">
+													<h3 class="fontstyle">Abin Jose</h3>
+													</div>
+													</div>
+													<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpg" alt="item0">
+														<div class="carousel-caption">
+														<h3 class="fontstyle">Avinash P</h3>
+												</div>
+												</div>
+												
+												<!--end carousel-inner--></div>
+										</div>
+										
+										<!--Begin Previous and Next buttons-->
+										<nav class="slides-navigation" style="margin-left: -25px;
+										">
+											<a href="#myGallery7" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+											<a href="#myGallery7" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+										  </nav>
+										<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+										<!--end carousel--></div>
+									<!--end modal-body--></div>
+									<!--end modal-content--></div>
+									<!--end modal-dialoge--></div>
+									<!--end myModal--></div>
 									<div class="col-md-3 col-sm-3 wow animated fadeInUp shift" data-wow-duration="1s" data-wow-delay="0.5s">
 										<div class="overlay-effect effects clearfix">
 											<div id="grid-gallery" class="grid-gallery">
 												<figure class="team-hover 3d-gallery">
-														<a href="#"><img src="assets/img/gallery/gal-icn.png">
-															<span>Sponsorship</span>
-														</a>                            
+													<div data-toggle="modal" data-target="#myModal6"><a href="#myGallery6" data-slide-to="0"><img src="assets/img/gallery/ep2.png">
+														<span>Web Developer</span>
+	  												</a></div>                           
 													</figure>
 											</div>
 										</div>
-									</div> -->
+										<h2>Web Developer</h2>
+									</div>
+																					<!--begin modal window-->
+				  <div class="modal fade" id="myModal6">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<div class="pull-left slideheader">Web Developer</div>
+					<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+					</div>
+					<div class="modal-body">
+					
+					<!--CAROUSEL CODE GOES HERE-->
+					
+					<!--CAROUSEL CODE GOES HERE-->
+				
+					<div class="carousel slide carouselslide">
+						<!-- mygallery1 -->
+						<div id="myGallery6">
+							<div class="carousel-inner" style="margin-left: -50px;">
+								<div class="item active" style="height: 500px;"><img src="assets/img/gallery/unkn9.jpg" alt="item0">
+								<div class="carousel-caption">
+								<h3 class="fontstyle">Saurabh Bodhe</h3>
+								</div>
+								</div>
+								<div class="item" style="height: 500px;"><img src="assets/img/gallery/unkn10.jpeg" alt="item0">
+									<div class="carousel-caption">
+									<h3 class="fontstyle">Yash Rathore</h3>
+									</div>
+									</div>
+									
+								<!--end carousel-inner--></div>
+						</div>
+						
+						<!--Begin Previous and Next buttons-->
+						<nav class="slides-navigation" style="margin-left: -25px;
+						">
+							<a href="#myGallery6" class="next  fa fa-2x fa-chevron-right" role="button" data-slide="next" style="margin-right:50px;"></a>
+							<a href="#myGallery6" class="prev  fa fa-2x fa-chevron-left" role="button" data-slide="prev" style="margin-right:100px"></a>
+						  </nav>
+						<!-- <a class="left carousel-control" href="#myGallery1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a> -->
+						<!--end carousel--></div>
+					
+					<!--end modal-body--></div>
+					<!--end modal-content--></div>
+					<!--end modal-dialoge--></div>
+					<!--end myModal--></div>
 								<!-- </li>
 								<li> -->
-									<!-- <div class="col-md-3 col-sm-3 wow animated fadeInUp shift" data-wow-duration="1s" data-wow-delay="0.5s">
-										<div class="overlay-effect effects clearfix">
-											<div id="grid-gallery" class="grid-gallery">
-												<figure class="team-hover 3d-gallery">
-														<a href="#"><img src="assets/img/gallery/gal-icn.png">
-															<span>Web Developers</span>
-														</a>                            
-													</figure>
-											</div>
-										</div>
-									</div>
-								</li>
+						</ul>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>   -->
-		<!--/TEAM-->
-				<!--TEAM-->
-				<section class="intro text-center section-padding" id="group">
+
+		</section>  
+		
+				<!-- <section class="intro text-center section-padding" id="group">
 					<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
 						<div class="row">
 							<div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -931,20 +1289,12 @@
 						</div>
 						<div class="row">
 								<div class="col-md-6 col-sm-6 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-									<!-- <div>
-										<div>
-											<img src="assets/img/team/nikhil.jpg" alt="Portfolio Item" width="100px" height="100px">
-										</div>
-									</div> -->
+									
 									<h2 class="levels">Organizer</h2>
 									<h2>Nikhil Mathur</h2>
 								</div>
 								<div class="col-md-6 col-sm-6 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-									<!-- <div class="effects">
-										<div>
-											<img src="assets/img/team/anushka.jpg" alt="Portfolio Item" width="100px" height="100px">
-										</div>
-									</div> -->
+									
 									<h2 class="levels">Co-Organizer</h2>
 									<h2>Anushka Mehta</h2>
 								</div>
@@ -1010,10 +1360,9 @@
 							</div>
 						</div>
 					</div>
-				</section>  
+				</section>   -->
 				<!--/TEAM-->
-
-		<!--CONTACT-->	
+	        	<!--CONTACT-->	
         <section class="text-center section-padding contact-wrap" id="contact">
 			<div class="container">
 				<div class="row">
@@ -1147,8 +1496,19 @@
 		
 		<!-- INITIALIZATION  -->
 		<script type="text/javascript" src="assets/js/init.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+		<!-- Demo -->
+		<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+		<!--Latest stable release of jQuery Core Library-->
+		<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script> 
 
+		<!--Bootstrap JS-->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+		</script>
+		<!-- /Demo -->
     </body>
 </html>

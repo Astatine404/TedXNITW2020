@@ -819,6 +819,14 @@ h2.levels {
 	padding-top: 10px;
     /*text-transform: uppercase;*/
 }
+h2.levels{
+	color: #363738;
+    font-size: 2.0em;
+    font-weight: 700;
+	letter-spacing: 0.1em;
+	padding-top: 10px;
+    /*text-transform: uppercase;*/
+}
 h2.front{
 	color: #363738;
     font-size: 2.0em;
@@ -953,6 +961,7 @@ figure.vimeo-video{
 
 .team-hover {
 	
+	
 	background: url("../img/gallery/gallery.png") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
 	height: 200px;
 	-webkit-transition: background .2s ;
@@ -968,18 +977,23 @@ figure.vimeo-video{
 }
 
 .team-hover:hover {
+	
 	background:none repeat scroll 0 0 #1f4060;
 	-webkit-transition: all .6s ;
 	-moz-transition: all .6s ;
 	-o-transition: all .6s ;
 	-ms-transition: all .6s;
 	transition: all .6s ;
+	
+	
 
 }
 .team-hover:hover span {
 	opacity:1;
 	text-align: center;
-    width: 100%;
+	width: 100%;
+	padding-bottom: 10px;
+	
 }
 .team-hover a {
 	display: block;
@@ -999,7 +1013,7 @@ figure.vimeo-video{
     letter-spacing: 0.1em;
 	opacity: 0;
 	position: absolute;
-	top: 35%;
+	top: 0%;
 }
 
 .team-hover:hover img {
@@ -1012,6 +1026,29 @@ figure.vimeo-video{
 }
 .groupgrid-gal figure.3d-gallery{
 	background: url("../assets/img/gallery/gallery.png") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+}
+
+/*******************************/
+/** Group Slider **/
+/*******************************/
+.carouselslide{
+	margin-left: 50px;
+	 margin-right: -50px;
+}
+.slideheader{
+	color: #132639;
+	font-size: 7mm;
+	font-weight: 700;
+	font-style: unset ;
+	font-family: inherit;
+	font-stretch: semi-expanded;
+}
+.fontstyle{
+	margin-bottom: 0px;
+	color:#404040;
+	font-weight: bolder;
+	font-stretch: ultra-expanded;
+	font-size: 6mm;
 }
 /*******************************/
 /** Team **/
