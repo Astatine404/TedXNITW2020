@@ -507,10 +507,16 @@ float:left;
 }
 }
 @media only screen and (max-width: 568px) {
-
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 384px) {
-
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
 body {
 	font-size:80%;
 }
@@ -530,7 +536,10 @@ body {
 
 }
 @media only screen and (max-width: 320px){
-
+/* For mobile phones: */
+[class*="col-12"] {
+    width: 100%;
+  }
 body {
 	font-size:70%;
 }
